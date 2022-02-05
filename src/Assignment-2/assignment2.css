@@ -96,3 +96,7 @@ img{
     width: 140px;
     height: 110px;
 }
+ul{
+    position: absolute;
+    left: 70px;
+}
