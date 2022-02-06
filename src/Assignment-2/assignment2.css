@@ -55,10 +55,22 @@ body{
 }
 #inputbar {
     width: 210px;
-    height: 35px;
+    height: 45px;
     position: absolute;
     top: -5px;
-    left: -1px;
+    left: -14px;
+    border-radius: 17px;
+    border: 1px solid lightgray;
+    outline: none;
+    cursor: text;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#inputbar:hover{
+    border-color: lightcoral;
+    border: 5px solid lightcoral;
 }
 img{
     width: 515px;
