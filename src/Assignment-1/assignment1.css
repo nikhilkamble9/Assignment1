@@ -40,3 +40,10 @@
         text-align: center;
         margin: 25%;
     }
+    h2 {
+        text-align: center;
+        list-style: none;
+        position: absolute;
+        left: 25%;
+        top: 14%;
+    }
