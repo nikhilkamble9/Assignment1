@@ -6,41 +6,37 @@
     height: 100%;
     }
     
-.row{
-    display: block;
-    width: 99%;
-    height: 50%;
-    margin: 10px;
-}
-img{
-    width: 1000px;
-    height: 600px;
-    margin: 10px;
-}
-.column{
-    margin-right: 0%;
-    display: inline-block;
-    width: 45%;
-    height: 50%;
-}
-#list1{
-    text-align: auto;
-    margin: 150px;
-}
-h1{
-    text-align: center;
-    margin-top: 150px;
-}
-#div1{
-    float: left;
-}
-#div2{
-    float: right;
-}
-#div3{
-    float: left;
-}
-#div4{
-    float: right;
-    text-align: center;
-}
+    body{
+        margin: 0px;
+    }
+    .name{
+        display: inline-block;
+        width: 50%;
+        height: 50vh;
+    }
+    img{
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        width: 1152px;
+        height: 559px;
+    }
+    .picture{
+        position: absolute;
+        top: 50%;
+    }
+    #list{
+        position: absolute;
+        background-color: cadetblue;
+    }
+    #last-name{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        background-color: firebrick;
+    }
+    #center{    
+        text-align: center;
+        margin: 25%;
+    }
