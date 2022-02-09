@@ -6,22 +6,44 @@
     height: 100%;
     }
     
-    .row{
-        display: block;
-        width: 100%;
-        border: 1px solid black;
-        margin: 10px;
+    body{
+        margin: 0px;
+    }
+    .name{
+        display: inline-block;
+        width: 50%;
+        height: 50vh;
     }
     img{
-        width: 550px;
-        height: 350px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        width: 1152px;
+        height: 559px;
     }
-    .col{
-        display: inline-block;
-        width: 40%;
-        height: 100px;
-        margin: 30px;
+    .picture{
+        position: absolute;
+        top: 50%;
     }
-    .text{
+    #list{
+        position: absolute;
+        background-color: cadetblue;
+    }
+    #last-name{
+        position: absolute;
+        top: 50%;
+        left: 50%;
         text-align: center;
+        background-color: firebrick;
+    }
+    #center{    
+        text-align: center;
+        margin: 25%;
+    }
+    h2 {
+        text-align: center;
+        list-style: none;
+        position: absolute;
+        left: 25%;
+        top: 14%;
     }
