@@ -1,27 +1,34 @@
-/* Our CSS file. */
-
-
-.container, .content {
-    width: 100%;
-    height: 100%;
-    }
-    
-    .row{
-        display: block;
-        width: 100%;
-        border: 1px solid black;
-        margin: 10px;
-    }
-    img{
-        width: 550px;
-        height: 350px;
-    }
-    .col{
-        display: inline-block;
-        width: 40%;
-        height: 100px;
-        margin: 30px;
-    }
-    .text{
-        text-align: center;
-    }
+body{
+    margin: 0px;
+}
+.name{
+    display: inline-block;
+    width: 50%;
+    height: 50vh;
+}
+img{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 1152px;
+    height: 559px;
+}
+.picture{
+    position: absolute;
+    top: 50%;
+}
+#list{
+    position: absolute;
+    background-color: cadetblue;
+}
+#last-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background-color: firebrick;
+}
+#center{    
+    text-align: center;
+    margin: 25%;
+}

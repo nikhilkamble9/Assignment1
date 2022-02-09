@@ -1,7 +1,92 @@
 /* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
+}
+.head-page {
+    display: block;
+    width: 100%;
+    height: 168px;
+    background-color: beige;
+}
+.search-bar-set {
+    width: 20%;
+    float: right;
+    margin-right: 0px;
+    position: absolute;
+    top: 65px;
+    left: 79%;
+}
+#input-bar {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.nav-row {
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: 11%;
+    background: whitesmoke;
+}
+.navigation-bar {
+    display: inline-block;
+    width: 20%;
+    text-decoration: none;
+}
+img {
+    width: 475px;
+    height: 264px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.logo-sec {
+    width: 100px;
+    height: 92px;
+}
+#left-side-bar {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+#middle-mid-container {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 735px;
+    border: none;
+    margin-top: 20px;
+}
+.right-side-menu {
+    display: inline-block;
+    width: 23%;
+    height: 736px;
+    text-align: center;
+    font-size: 25px;
+}
+#left-side-bar {
+    display: inline-block;
+    width: 25%;
+    height: 688px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.footer-page {
+    background-color: lightgray;
+    height: 133px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 165px;
+    display: inline-block;
+    width: 100%;
+}
+.left-side-writing {
+    list-style: none;
+}
+.right-side-writing{
+    list-style: none;
 }
