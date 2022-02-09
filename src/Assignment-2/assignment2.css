@@ -33,6 +33,7 @@ height: 100%;
 .navigation-bar {
     display: inline-block;
     width: 20%;
+    text-decoration: none;
 }
 img {
     width: 475px;
