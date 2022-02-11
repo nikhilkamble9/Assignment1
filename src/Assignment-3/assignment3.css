@@ -22,32 +22,32 @@ body{
 }
 .main-iframe {
     display: inline-block;
-    width: 54%;
-    height: 92vh;
+    width: 50%;
+    height: 80vh;
     position: absolute;
     top: 28px;
     left: 45%;
     text-align: center;
-}
+  }
 .iframe-left {
     display: inline-block;
     width: 40%;
-    height: 44vh;
+    height: 90vh;
     position: absolute;
     border: 1px solid black;
-    top: 31px;
-    left: 111px;
+    top: 30px;
     border: darkgray;
-    text-align: center;
-}
-.iframe-2 {
+    text-align: left;
+    left: 18px;
+  }
+  .iframe-2 {
     display: inline-block;
-    width: 90%;
-    height: 76.5vh;
+    width: 70%;
+    height: 65.5vh;
     position: absolute;
-    left: 5%;
-    top: 115%;
-}
+    left: 16%;
+    top: 128%;
+  }
 .iframe-bottom {
     display: inline-block;
     width: 100%;
@@ -56,7 +56,7 @@ body{
 p {
     text-align: justify;
     position: relative;
-    top: 130px;
+    top: 110px;
     font-size: 25px;
 }
 button {
@@ -65,20 +65,31 @@ button {
     color: white;
     background-color: black;
     position: relative;
-    top: 15vh;
+    top: 22vh;
     width: 25vh;
-    font-size: 28px;
-}
-#second-para {
+    font-size: 22px;
+    left: 188px;
+  }
+  #second-para {
     position: relative;
-    left: 45%;
-    top: -25px;
-    width: 15%;
-}
-#second-butt {
+    left: 25%;
+    width: 50%;
+  }
+  #second-paragraph {
     position: relative;
-    top: -25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+    text-align: center;
+  }
+  #second-butt {
+    position: relative;
+    top: 30px;
     height: 8vh;
     width: 25vh;
     font-size: 31px;
-}
+    left: 10px;
+  }
+h1 {
+    width: 48%;
+  }
