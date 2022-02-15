@@ -19,6 +19,9 @@ height: 100%;
 }
 .image-left {
   background-color: lightgreen;
+  display: flex;
+  width: 70%;
+  height: 60vh;
 }
 h1 {
   font-size: 35px;
@@ -44,4 +47,19 @@ p {
   border: none;
   color: white;
   font-size: 20px;
+}
+img {
+  position: absolute;
+}
+.img-1 {
+  top: 41px;
+  width: 500px;
+  height: 475px;
+  left: 50px;
+}
+.img-2 {
+  width: 495px;
+  height: 480px;
+  top: 530px;
+  left: 53px;
 }
