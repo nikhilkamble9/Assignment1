@@ -5,104 +5,43 @@
 width: 100%;
 height: 100%;
 }
+
 #container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    background-color: lightgray;
-  }
-  #container {
-    display: flex;
-    width: 100%;
-    height: 100pc;
-    background-color: lightgray;
-    flex-direction: column;
-  }
-  .card {
-    display: flex;
-    width: 90%;
-    height: 70vh;
-    background: white;
-    margin: 130px 10px 10px 94px;
-  }
-  .label {
-    display: flex;
-    flex-direction: row;
-    width: 25%;
-    height: 62px;
-    font-size: 50px;
-    position: relative;
-    left: 161px;
-    top: 30px;
-  }
-  .label2 {
-    display: flex;
-    flex-direction: row;
-    width: 19%;
-    height: 62px;
-    font-size: 50px;
-    position: relative;
-    left: 168px;
-    top: 10px;
-  }
-  .writing-wrapper {
-    display: flex;
-    width: 25%;
-    height: 30vh;
-    position: absolute;
-    top: 238px;
-    left: 800px;
-    text-align: center;
-    font-size: 22px;
-  }
-  #writing-wrapper {
-    display: flex;
-    position: absolute;
-    width: 25%;
-    left: 800px;
-    top: 125vh;
-    text-align: center;
-    height: 24vh;
-    font-size: 22px;
-  }
-  img {
-    width: 440px;
-    height: 643px;
-    display: flex;
-    width: 76vh;
-    position: relative;
-    top: -132px;
-    left: -19px;
-  }
-  .color-panel {
-    display: inline-block;
-    width: 32%;
-    height: 70vh;
-    background-color: lightgreen;
-    position: absolute;
-    left: 94px;
-  }
-  #split-div {
-    display: flex;
-    height: 70vh;
-  }
-  .bottom-butt {
-    height: 50px;
-    width: 169px;
-    position: relative;
-    top: 64%;
-    right: 14%;
-    border-radius: 26px;
-    font-size: 25px;
-    background: lightgreen;
-    color: white;
-    border: none;
-    border-style: outset;
-  }
-  #last-button {
-    right: 8%;
-    top: 60%;
-  }
-  h1 {
-    font-weight: bold;
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 25px 65px 10px 100px;
+  background-color: lightgray;
+}
+.card {
+  background-color: white;
+  display: flex;
+  margin-top: 45px;
+}
+.image-left {
+  background-color: lightgreen;
+}
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+p {
+  display: flex;
+  width: 50%;
+  font-size: 22px;
+  text-align: justify;
+}
+.writing-wrapper {
+  margin-left: 10%;
+}
+.writing-wrapper > * {
+  margin-top: 25px;
+}
+.bottom-butt {
+  width: 145px;
+  height: 6vh;
+  border-radius: 20px;
+  background: lightgreen;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
